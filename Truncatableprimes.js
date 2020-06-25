@@ -24,3 +24,14 @@ Static void sumTruncPrimes()
 }
        static boolean isRightTruncPrime(log n)
 {
+              İf(!isPrime(n))
+       Return false;
+       Long curNum = n;
+       While (curNum > 9)
+{
+      curNum = curNum/10;
+      İf(isPrime(curNum))
+      return false;
+}
+      return true;
+}
